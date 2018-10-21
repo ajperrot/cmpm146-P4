@@ -25,6 +25,7 @@ def setup_behavior_tree():
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
+
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
     attack = Action(attack_weakest_enemy_planet)
@@ -35,7 +36,20 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [offensive_plan, spread_sequence, attack.copy()]
+    counter_action = Action(counter_fleet)
+
+    regrow_sequence = Sequence(name='Regrow Strategy')
+    lone_ally_check = Check(lone_ally)
+    take_high_growth_action = Action(take_high_growth)
+    regrow_sequence.child_nodes = [lone_ally_check, take_high_growth_action]
+
+    checkmate_sequence = Sequence(name='Checkmate Strategy')
+    lone_enemy_check = Check(lone_enemy)
+    rush_first_target_action = Action(rush_first_target)
+    checkmate_sequence.child_nodes = [lone_enemy_check, rush_first_target_action]
+    
+
+    root.child_nodes = [regrow_sequence, checkmate_sequence, counter_action, offensive_plan, spread_sequence, attack.copy()]
 
     logging.info('\n' + root.tree_to_string())
     return root
