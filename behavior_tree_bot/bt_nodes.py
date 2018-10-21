@@ -45,7 +45,7 @@ class Composite(Node):
 
 
 class Decorator(Composite):
-    def __init__(self, child, name=None):
+    def __init__(self, child = None, name=None):
         self.child = child
         self.name = name
 
