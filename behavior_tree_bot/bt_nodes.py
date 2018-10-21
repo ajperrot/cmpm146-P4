@@ -50,8 +50,8 @@ class Decorator(Composite):
         self.name = name
 
     def tree_to_string(self, indent=0):
-        string = '|' + str(self) + '\n'
-        string += '||' + str(self.child)
+        string = str(self) + '\n'
+        string += '|' + str(self.child)
         return string
 
 
