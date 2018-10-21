@@ -44,6 +44,17 @@ class Composite(Node):
         return string
 
 
+class Decorator(Composite):
+    def __init__(self, child, name=None):
+        self.child = child
+        self.name = name
+
+    def tree_to_string(self, indent=0):
+        string = '|' + str(self) + '\n'
+        string += '||' + str(self.child)
+        return string
+
+
 ############################### Composite Nodes ##################################
 class Selector(Composite):
     @log_execution
@@ -90,3 +101,26 @@ class Action(Node):
 
     def __str__(self):
         return self.__class__.__name__ + ': ' + self.action_function.__name__
+
+
+############################### Decorator Nodes ##################################
+class Inverter(Decorator):
+    @log_execution
+    def execute(self, state):
+        if self.child.execute(state) == True:
+            return False
+        else:
+            return True
+
+class LoopUntilFailed(Decorator):
+    @log_execution
+    def execute(self, state):
+        while self.child.execute(state) == True:
+            pass
+        return True #unsure if correct, asked on canvas
+
+class AlwaysSucceed(Decorator):
+    @log_execution
+    def execute(self, state):
+        self.child.execute(state)
+        return True
