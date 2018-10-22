@@ -1,2532 +1,701 @@
 INFO:root:
 Selector: High Level Ordering of Strategies
-| Sequence: Regrow Strategy
-| | Check: lone_ally
-| | Action: take_high_growth
-| Sequence: Checkmate Strategy
-| | Check: lone_enemy
-| | Action: rush_first_target
-| Action: counter_fleet
-| Sequence: Offensive Strategy
-| | Check: have_largest_fleet
-| | Action: attack_weakest_enemy_planet
-| Sequence: Spread Strategy
-| | Check: if_neutral_planet_available
-| | Action: spread_to_weakest_neutral_planet
-| Action: attack_weakest_enemy_planet
+| Action: aggressive_attack
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:1 11 50.0
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 9 26.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Success
-DEBUG:root:Executing:Action: rush_first_target
-DEBUG:root:Result: Action: rush_first_target -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Order:11 12 3
-DEBUG:root:Result: Action: counter_fleet -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 17 36.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Order:1 12 120.0
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
-DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 11 67.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:12 8 55.0
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 12 57.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Order:12 18 62
-DEBUG:root:Result: Action: counter_fleet -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 5 28.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Order:11 13 68
-DEBUG:root:Result: Action: counter_fleet -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:11 0 17.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:1 14 85.0
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:11 18 34.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Order:13 6 72
-DEBUG:root:Result: Action: counter_fleet -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:11 17 20.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:1 9 72.5
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:0 9 16.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:1 0 76.5
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:11 6 19.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Order:1 0 63.5
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 2 105.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:0 17 16.0
+DEBUG:root:Order:11 19 15.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 18 20.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Success
-DEBUG:root:Executing:Action: take_high_growth
-DEBUG:root:Result: Action: take_high_growth -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 9 16.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:0 5 16.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Regrow Strategy
-DEBUG:root:Executing:Check: lone_ally
-DEBUG:root:Result: Check: lone_ally -> Failure
-DEBUG:root:Result: Sequence: Regrow Strategy -> Failure
-DEBUG:root:Executing:Sequence: Checkmate Strategy
-DEBUG:root:Executing:Check: lone_enemy
-DEBUG:root:Result: Check: lone_enemy -> Failure
-DEBUG:root:Result: Sequence: Checkmate Strategy -> Failure
-DEBUG:root:Executing:Action: counter_fleet
-DEBUG:root:Result: Action: counter_fleet -> Failure
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
-DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_weakest_enemy_planet
-DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 17 16.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 13 32.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:9 5 18.0
+DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
