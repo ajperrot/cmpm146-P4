@@ -1,701 +1,2273 @@
 INFO:root:
 Selector: High Level Ordering of Strategies
-| Action: aggressive_attack
+| Selector: Aggressive Strategy
+| | Sequence: Aggressive Attack Sequence
+| | | Check: have_largest_fleet
+| | | Action: aggressive_attack
+| | Action: aggressive_spread
+| Action: defensive_defend
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 17 5.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 18 5.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 11 13.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 12 13.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 5 23.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 6 23.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Order:1 9 26.0
 DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:1 17 36.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 18
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:1 11 67.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:1 12 57.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 2
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:1 5 28.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:11 0 17.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 2
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:11 18 34.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:11 17 20.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 12 17
+DEBUG:root:Order:18 12 13
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:0 9 16.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 18 1
+DEBUG:root:Order:1 12 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:11 6 19.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:12 11.0 14
+DEBUG:root:Order:1 6 13
+DEBUG:root:Order:18 6 10
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:12 2 105.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:12 6 15
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 18 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:0 17 16.0
-DEBUG:root:Order:11 19 15.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 18 2
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:12 18 20.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:12 9 16.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:0 5 16.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 18 2
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:12 17 16.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:12 13 32.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: aggressive_attack
 DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Order:9 5 18.0
-DEBUG:root:Result: Action: aggressive_attack -> Success
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 0 38.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 10.0 20
+DEBUG:root:Order:6 1 5
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 6.0 18
+DEBUG:root:Order:1 18 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:6 18 17
+DEBUG:root:Order:1 18 2
+DEBUG:root:Order:1 5 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 10
+DEBUG:root:Order:18 5 7
+DEBUG:root:Order:6 5 6
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 2
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 9 3
+DEBUG:root:Order:6 9 3
+DEBUG:root:Order:18 9 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 9 6
+DEBUG:root:Order:5 9 2
+DEBUG:root:Order:6 9 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 1
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 9 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 1
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 9 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 1
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 9 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:0 5 3
+DEBUG:root:Order:0 6 3
+DEBUG:root:Order:0 9 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 0 14
+DEBUG:root:Order:5 0 9
+DEBUG:root:Order:6 0 9
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 1
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 0 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:0 5 1
+DEBUG:root:Order:0 6 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 12
+DEBUG:root:Order:5 6 6
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Order:1 5 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 5 1
+DEBUG:root:Order:1 6 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:1 19 56.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:6 9 18
+DEBUG:root:Bad order:6 13.0 14
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:9 3.0 9
+DEBUG:root:Order:1 6 7
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:9 5.0 7
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:9 6 6
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Order:1 9 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 9 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:19 6 11
+DEBUG:root:Order:19 1 6
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 19
+DEBUG:root:Order:6 19 14
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 2
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 1
+DEBUG:root:Order:6 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Order:1 19 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 10
+DEBUG:root:Order:19 6 5
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 1
+DEBUG:root:Order:1 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Order:19 21 59.0
+DEBUG:root:Result: Action: aggressive_spread -> Success
+DEBUG:root:Result: Selector: Aggressive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 25
+DEBUG:root:Bad order:6 15.0 16
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:6 19 15
+DEBUG:root:Order:1 19 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:21 6 4
+DEBUG:root:Order:21 1 5
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 21 27
+DEBUG:root:Order:6 21 18
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 18
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 14.0 35
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 17.0 33
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 25.0 31
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 28.0 29
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:6 1 27
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 6 2
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 2
+DEBUG:root:Order:1 6 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 12
+DEBUG:root:Order:6 19 8
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:1 19 2
+DEBUG:root:Order:1 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:6 19 1
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:19 6 12
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: aggressive_attack
-DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Bad order:6 2.0 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Order:19 6 3
+DEBUG:root:Result: Action: defensive_defend -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Aggressive Strategy
+DEBUG:root:Executing:Sequence: Aggressive Attack Sequence
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Aggressive Attack Sequence -> Failure
+DEBUG:root:Executing:Action: aggressive_spread
+DEBUG:root:Result: Action: aggressive_spread -> Failure
+DEBUG:root:Result: Selector: Aggressive Strategy -> Failure
+DEBUG:root:Executing:Action: defensive_defend
+DEBUG:root:Result: Action: defensive_defend -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 

@@ -49,10 +49,18 @@ def setup_behavior_tree():
     checkmate_sequence.child_nodes = [lone_enemy_check, rush_first_target_action]
     """
 
-    aggressive_attack_action = Action(aggressive_attack)
+    aggressive_strategy = Selector(name='Aggressive Strategy')
+    attack_sequence = Sequence(name='Attack Sequence')
+    largest_fleet_check = Check(have_largest_fleet)
+    attack_action = Action(attack)
+    attack_sequence.child_nodes = [largest_fleet_check, attack_action]
+    spread_action = Action(spread)
+    aggressive_strategy.child_nodes = [attack_sequence, spread_action]
+
+    defend_action = Action(defend)
     
     #root.child_nodes = [regrow_sequence, checkmate_sequence, counter_action, offensive_plan, spread_sequence, attack.copy()]
-    root.child_nodes = [aggressive_attack_action]
+    root.child_nodes = [aggressive_strategy, defend_action]
 
     logging.info('\n' + root.tree_to_string())
     return root
