@@ -1,0 +1,10 @@
+Selector: High Level Ordering of Strategies
+| Sequence: Early Game Strategy
+| | Check: lone_ally
+| | Action: grow_from_one
+| Selector: Aggressive Strategy
+| | Sequence: Attack Sequence
+| | | Check: have_largest_fleet
+| | | Action: attack
+| | Action: spread
+| Action: defend
