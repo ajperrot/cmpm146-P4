@@ -218,3 +218,55 @@ def defend(state):
     except StopIteration:
         return success
 
+#production bot's winning strategy
+def production(state):
+    my_planets = iter(sorted(state.my_planets(), key=lambda p: p.num_ships, reverse=True))
+
+    target_planets = [planet for planet in state.not_my_planets()
+                        if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+    target_planets = iter(sorted(target_planets, key=lambda p: p.num_ships, reverse=True))
+
+    success = False
+
+    try:
+        my_planet = next(my_planets)
+        target_planet = next(target_planets)
+        while True:
+            if target_planet.owner == 0:
+                required_ships = target_planet.num_ships + 1
+            else:
+                required_ships = target_planet.num_ships + \
+                                    state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
+
+            if my_planet.num_ships > required_ships:
+                issue_order(state, my_planet.ID, target_planet.ID, required_ships)
+                success = True
+                my_planet = next(my_planets)
+                target_planet = next(target_planets)
+            else:
+                target_planet = next(target_planets)
+
+    except StopIteration:
+        return success
+
+#grow to nearest planet from 1 planet
+def grow_from_one(state):
+    planet = state.my_planets()[0]
+    least_distance = inf
+    nearest_target = None
+   # neutral_planets = [planet for planet in state.neutral_planets()
+    #                  if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+    #neutral_planets.sort(key=lambda p: p.num_ships)
+
+    for target in state.neutral_planets():
+        target_distance = state.distance(planet.ID, target.ID)
+        if target_distance < least_distance:
+            required_ships = required_ships = target.num_ships + 1
+            if planet.num_ships > required_ships:
+                least_distance = target_distance
+                nearest_target = target
+    if not nearest_target:
+        return False
+    else:
+        return issue_order(state, planet.ID, nearest_target.ID, required_ships)
+
